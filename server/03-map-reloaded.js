@@ -1,15 +1,15 @@
 const products = [{
-    name:"Jeans", price: 210, delivered: true
-},
-{
-    name:"Pants", price: 110, delivered: true
-},
-{
-    name:"Shirt", price: 210, delivered: true
-},
-{
-    name:"Scarf", price: 210, delivered: true
-}
+        name:"Jeans", price: 210, delivered: true
+    },
+    {
+        name:"Pants", price: 110, delivered: true
+    },
+    {
+        name:"Shirt", price: 210, delivered: true
+    },
+    {
+        name:"Scarf", price: 210, delivered: true
+    }
 ];
 
 const price = products.map( product => product.price);
